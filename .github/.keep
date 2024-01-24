@@ -1,0 +1,294 @@
+**Programación en Java**
+
+• Un programa en Java se estructura como un conjunto de clases.
+
+• Es recomendable crear un fichero de código por cada clase, ambos con el mismo nombre
+• Todo programa Java empieza por la función main
+• A partir del main, las sentencias de Java se ejecutan en orden secuencial, es decir, de la parte
+superior del fichero a la parte inferior.
+
+**Delimitadores**
+
+• Toda sentencia Java viene delimitada por el carácter ;
+• Para delimitar bloques de código se utilizan los caracteres { y }
+    {. Abre el bloque de código
+    }. Cierra el bloque de código
+• Un bloque de código puede ser utilizado para delimitar:
+    • Una clase
+    • Una función
+    • Un bucle o condicional
+
+**Palabras reservadas**
+
+    • Java posee un gran número de palabras reservadas
+    • Cada palabra reservada tiene una funcionalidad 
+    • No se permite la utilización de una palabra reservada para nombrar los elementos de Java
+
+    Ejemplo:
+
+    public class EjemploJava{
+        /*
+        EjemploJava de un programa que suma 2+2
+        */
+            public static void main (String)[] args) {
+                int suma = 2 + 2;
+                System.out.println("La suma es" + suma);
+            }
+    }   
+
+    Lista de palabras reservadas
+
+abstract continue finally int public throw
+assert default float interface return throws
+boolean do for long short transient
+break double goto native static true
+byte else if new strictfp try
+case enum implements null super void
+catch extends import package switch volatile
+class false inner private synchronized while
+const final instanceof protected this
+
+**Identificadores**
+
+• Un identificadores es un nombre con el que se hace referencia a:
+• Una función
+• Una clase
+• El contenido de una variable o una constante
+• A la hora de definir un identificador, se debe tener en cuenta lo siguiente:
+• Se forma por una secuencia de letras y dígitos (incluido _)
+• No puede contener ni espacios en blanco ni caracteres especiales como +, -, *, /, ;, etc.
+• El primer carácter debe ser una letra o _
+• Distingue entre mayúsculas y minúsculas
+• Conviene incluir nombres que indiquen lo que representan o su utilidad
+
+**Comentarios**
+
+• Explican o aclaran una parte del código
+• Son ignorados por el compilador
+• Existen 2 tipos:
+    • /* */ Cuando el comentario ocupa mas de una línea
+    • // Cuando el comentario sólo ocupa una línea
+• Se debe procurar incluir sólo los comentarios mínimos para la comprensión del código
+
+**Tipos de datos**  
+• Todo dato manejado en Java debe tener un tipo
+• El tipo puede ser:
+    • Explícito. Indicado por el programador
+    • Implícito. El compilador interpreta el tipo automáticamente
+• El tipo de datos sirve al compilador para:
+• Conocer el espacio de memoria a reservar para ese dato
+• Conocer una serie de directrices a la hora de manejarlo
+
+• Los caracteres soportan cualquier carácter ASCII. Esto implica:
+• Algunos caracteres no pueden ser representados (tildes, ñ, etc)
+• El carácter ‘\’ representa el carácter de escape. Ejemplos:
+• \n: Salto de línea
+• \’: Comilla
+• \\: Carácter \
+
+**Variables**
+
+• Elemento del lenguaje que permite almacenar valores que pueden cambiar a lo largo del tiempo o las
+ejecuciones
+• Se definen de la forma tipo nombre
+• En Java es obligatorio indicar el tipo de la variable, así como inicializarla
+•Ejemplos:
+    • int suma = 0;
+    • double numDecimal = 3.8;
+    • boolean esCierto = true;
+    • char caracterSimple = ‘c’;
+    • String cadena = “Ejemplo”;
+
+**Operadores**
+
+    • Carácter o grupo de caracteres especiales que actúa sobre una, dos o mas variables y/o
+    constantes para obtener un resultado
+    • Se pueden combinar dando lugar a expresiones, pudiendo usar paréntesis para modificar su
+    precedencia
+    • Para dar un valor a una variable, se utiliza el operador de asignación =
+    • Ejemplo:
+        • int a = 3;  a vale 3
+        
+**Sintaxis Java**
+
+La sintaxis de Java es similar a la de otros lenguajes de programación, como C++ y C#. 
+A continuación, se muestra un ejemplo de un programa básico en Java:
+
+public class MiPrograma {
+    public static void main(String[] args) {
+        System.out.println("Hola, mundo!");
+    }
+}
+
+**Estructuras de control**
+
+Permiten controlar el flujo de ejecución de tu programa. Algunas de las más comunes en Java son:
+
+if-else: Ejecuta un bloque de código si se cumple una condición.
+for: Repite un bloque de código un número determinado de veces.
+while: Repite un bloque de código mientras se cumpla una condición.
+
+**Manejo de excepciones**
+
+Permite controlar y manejar errores en tu programa. 
+Puedes utilizar bloques try-catch para capturar y manejar excepciones específicas. 
+Aquí hay un ejemplo:
+
+try {
+    // Código que puede lanzar una excepción
+} catch (ExcepcionEspecifica e) {
+    // Manejar la excepción
+}
+
+**Objetos**
+
+Java es un lenguaje de programación orientado a objetos, lo que significa que todo en Java es un objeto.
+En Java, un objeto es una instancia de una clase.
+La programación orientada a objetos te permite organizar tu código en clases y objetos, 
+lo que facilita la reutilización y la modularidad. 
+
+Ejemplo de una clase en Java:
+
+Una clase es una plantilla que define las propiedades y comportamientos de un objeto. 
+Para crear un objeto en Java, primero debes definir una clase y luego instanciarla utilizando la palabra clave "new". 
+
+Ejemplo:
+
+public class MiClase {
+    // Variables de instancia y métodos
+    
+    public static void main(String[] args) {
+        MiClase miObjeto = new MiClase();
+        // Hacer uso del objeto
+    }
+}
+
+Que es un arreglo en java
+
+public class MiClase {
+    // Variables de instancia
+    private int numero;
+    
+    // Constructor
+    public MiClase(int numero) {
+        this.numero = numero;
+    }
+    
+    // Método
+    public void imprimirNumero() {
+        System.out.println("El número es: " + numero);
+    }
+}
+
+**Librerías y frameworks populares**
+
+Java cuenta con una amplia variedad de librerías y frameworks que permiten acelerar el desarrollo de tus aplicaciones. 
+Algunas de las librerías y frameworks más populares de Java son:
+
+Spring: Un framework de desarrollo de aplicaciones empresariales.
+JUnit: Un framework de pruebas unitarias para Java.
+JavaFX: Una librería para desarrollar interfaces gráficas de usuario.
+
+**Arrays de una dimensión**
+
+Un Array es un tipo de dato, que en su interior puede contener varios datos a los que podemos acceder mediante «índices»,
+aunque hay que tener en cuenta, que en JAVA, estos datos deben ser todos del mismo tipo.
+
+Cuando declaramos el array debemos indicar, tanto el tamaño que tendrá como el tipo de dato que almacenará:
+
+String [] meses = new String[12];
+
+En este ejemplo, el array contendría los meses en formato texto, y para ello, hemos declarado su tipo,
+y el espacio en memoria para las 12 posiciones.
+
+Después podríamos acceder a cada espacio y asignarle un valor mediante los índices,
+teniendo en cuenta que las posiciones empiezan a contar desde 0.
+
+Ejemplo:
+
+meses[0] = "Enero";
+meses[1] = "Febrero";
+meses[2] = "Marzo";
+meses[3] = "Abril";
+meses[4] = "Mayo";
+meses[5] = "Junio";
+meses[6] = "Julio";
+meses[7] = "Agosto";
+meses[8] = "Septiembre";
+meses[9] = "Octubre";
+meses[10] = "Noviembre";
+meses[11] = "Diciembre";
+
+También podríamos haber creado este Array y asignado sus valores con la siguiente expresión:
+
+String[] meses = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+
+Por ejemplo, si ahora quisiéramos imprimir en pantalla Mayo, podríamos hacerlo mediante System.out.println(meses[4]);
+
+Así podemos tener en una misma variable una lista de valores que nos interesen, 
+y que podremos recorrer por ejemplo mediante un ciclo for de la siguiente forma:
+
+for (int i = 0; i <12; i++){
+System.out.println(meses[i]);
+}
+
+**Arrays bidimensionales**
+
+Un array de una única dirección, es lo que en matemáticas conocemos como vector.
+El array bidimensional podríamos equipararlo a una matriz, que se representaría con una cuadricula con filas y columnas.
+
+Esto quiere decir, que tenemos dos coordenadas para los valores que almacenamos en este array, 
+dispondría de un índice para las filas, y otro índice para las columnas.
+
+Un array bidireccional se declara del siguiente modo:
+
+String [][] diccionario = new String[3][2];
+
+Se declara de forma similar al unidireccional, sólo debemos añadir otro [] adicional, 
+al que debemos asignar el número de espacios correspondiente.
+
+El ejemplo podría representar un diccionario Español-Inglés, que almacenaría tres combinaciones. 
+En el primer [], se representa el número de filas que dispone este array, el segundo, es el número de columnas.
+
+Se le podrían asignar valores tanto así:
+
+diccionario[0][0] = "Hola";
+diccionario[0][1] = "Hello";
+diccionario[1][0] = "Gato";
+diccionario[1][1] = "Cat";
+diccionario[2][0] = "Perro";
+diccionario[2][1] = "Dog";
+
+También se podría asignar de la siguiente forma:
+
+String[][] diccionario = {{"Hola", "Hello"}, {"Gato", "Cat"}, {"Perro", "Dog"}};
+
+Para recorrer el Array, también lo podemos hacer mediante un bucle anidado, de modo que en uno recorramos las filas, 
+y en el otro las columnas.
+
+for (int i = 0; i < 3; i++){
+for (int j = 0; i < 2; j++){
+System.out.print(diccionario[i][j] );
+}
+System.out.println(" ");
+}
+
+Con esta instrucción imprimiría en pantalla primero la palabra en castellano, después en inglés, 
+después imprimiría un salto de línea y pasaría a leer la siguiente fila.
+
+**Recorrer Arrays al estilo for each**
+
+El estilo for each de Java, nos permite recorrer los arrays sin miedo a cometer salidas de índice, 
+ya que lo que indicaremos es el tipo de dato que se espera dentro del array y le asignaremos un nombre, 
+volviendo al array meses, podemos recorrerlo de la siguiente forma:
+
+for (String mes : meses) {
+System.out.println(mes);
+}
+
+En la primera parte del for, indicamos el nombre de la variable que va a leer en cada ciclo, 
+y en la segunda parte indicamos de qué array lo va a hacer.
+
+La primera vez que realice el ciclo, automáticamente, mes leerá la cadena correspondiente al índice 0, 
+la segunda al 1, y así sucesivamente hasta llegar al final. 
+Cuando llega al final, tenga la cantidad que tenga de valores, finaliza automáticamente.
