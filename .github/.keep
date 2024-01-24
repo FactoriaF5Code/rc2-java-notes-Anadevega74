@@ -291,4 +291,4 @@ y en la segunda parte indicamos de qué array lo va a hacer.
 
 La primera vez que realice el ciclo, automáticamente, mes leerá la cadena correspondiente al índice 0, 
 la segunda al 1, y así sucesivamente hasta llegar al final. 
-Cuando llega al final, tenga la cantidad que tenga de valores, finaliza automáticamente.
+Cuando llega al final, tenga la cantidad que tenga de valores, finaliza automáticamente
