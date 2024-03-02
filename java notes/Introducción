@@ -1,0 +1,8 @@
+1-INTRODUCCIÓN
+Java es un lenguaje de programación de propósito general, orientado a objetos y con una sintaxis similar a C++. Fue desarrollado por Sun Microsystems (ahora propiedad de Oracle Corporation) en la década de 1990 y se ha convertido en uno de los lenguajes más populares y ampliamente utilizados en la industria del software.
+
+Una de las características más destacadas de Java es su portabilidad, gracias a la máquina virtual de Java (JVM), que permite que el código escrito en Java se ejecute en diferentes plataformas sin necesidad de recompilación. Esto ha contribuido a su adopción en una amplia gama de dispositivos y sistemas, desde aplicaciones de escritorio hasta servidores web y dispositivos móviles.
+
+Java es conocido por su robustez, seguridad y facilidad de uso. Ofrece características como la gestión automática de la memoria a través del recolector de basura, la gestión de excepciones, el manejo de hilos y una amplia biblioteca estándar que facilita el desarrollo de aplicaciones complejas.
+
+Además de su uso en el desarrollo de aplicaciones empresariales y de escritorio, Java también es ampliamente utilizado en el desarrollo web a través de tecnologías como JavaServer Pages (JSP) y frameworks como Spring, así como en el desarrollo de aplicaciones móviles Android.
