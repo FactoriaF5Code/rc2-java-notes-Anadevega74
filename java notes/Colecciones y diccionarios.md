@@ -1,13 +1,13 @@
 ## Colecciones: la clase ArrayList
 
 Una __colección__ en Java es una estructura de datos que permite almacenar muchos valores del mismo tipo; por tanto, conceptualmente es prácticamente igual que un array. Según el uso y según si se permiten o no repeticiones, Java dispone de un amplio catálogo de colecciones: __ArrayList__ (lista), __ArrayBlockingQueue__ (cola), __HashSet__ (conjunto),
-__Stack__ (pila), etc. En este manual estudiaremos la colección ArrayList.
+__Stack__ (pila), etc. 
 
 Un __ArrayList__ es una estructura en forma de lista que permite almacenar elementos del mismo tipo (pueden ser incluso objetos); su tamaño va cambiando a medida que se añaden o se eliminan esos elementos.
 
 Nos podemos imaginar un _ArrayList_ como un conjunto de celdas o cajoncitos donde se guardan los valores, exactamente igual que un array convencional. En la práctica será más fácil trabajar con un _ArrayList_.
 
-En capítulos anteriores hemos podido comprobar la utilidad del _array_; es un recurso imprescindible que cualquier programador debe manejar con soltura. No obstante, el array presenta algunos inconvenientes. Uno de ellos es la necesidad de conocer el tamaño exacto en el momento de su creación. Una colección, sin embargo, se crea sin que se tenga que especificar el tamaño; posteriormente se van añadiendo y quitando elementos a medida que se necesitan.
+_array_; es un recurso imprescindible que cualquier programador debe manejar con soltura. No obstante, el array presenta algunos inconvenientes. Uno de ellos es la necesidad de conocer el tamaño exacto en el momento de su creación. Una colección, sin embargo, se crea sin que se tenga que especificar el tamaño; posteriormente se van añadiendo y quitando elementos a medida que se necesitan.
 
 Trabajando con _arrays_ es frecuente cometer errores al utilizar los índices; por ejemplo al intentar guardar un elemento en una posición que no existe (índice fuera de rango). Aunque las colecciones permiten el uso de índices, no es necesario indicarlos siempre. Por ejemplo, en una colección del tipo _ArrayList_ que almacena modelos de coches, cuando hay que añadir un nuevo elemento, se se hace de la siguiente manera:
 
